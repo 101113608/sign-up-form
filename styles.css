@@ -1,0 +1,10 @@
+/* Remove default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* Fill entire viewport height */
+    min-height: 100svh;
+}
