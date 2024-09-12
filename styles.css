@@ -20,7 +20,7 @@ body {
 
 body>div {
     /* Flex item properties */
-    flex: 1 1 auto;
+    flex: 1 1 50%;
 
     /* Flex container properties */
     display: flex;
