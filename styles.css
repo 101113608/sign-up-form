@@ -21,4 +21,12 @@ body {
 body>div {
     /* Flex item properties */
     flex: 1 1 auto;
+
+    /* Flex container properties */
+    display: flex;
+    flex-direction: column;
+}
+
+.body-right-section>div {
+    flex: 1;
 }
