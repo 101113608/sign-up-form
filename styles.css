@@ -2,9 +2,23 @@
 * {
     margin: 0;
     padding: 0;
+
+    /*
+        ! Outline for structuring the page
+        ! Remove once finished designing
+    */
+    outline: 1px solid red;
 }
 
 body {
     /* Fill entire viewport height */
     min-height: 100svh;
+
+    /* Flex container properties */
+    display: flex;
+}
+
+body>div {
+    /* Flex item properties */
+    flex: 1 1 auto;
 }
