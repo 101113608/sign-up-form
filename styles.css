@@ -2,7 +2,6 @@
 * {
     margin: 0;
     padding: 0;
-
     /*
         ! Outline for structuring the page
         ! Remove once finished designing
@@ -29,4 +28,21 @@ body>div {
 
 .body-right-section>div {
     flex: 1;
+}
+
+
+/* Right div of body, top section */
+.body-right-section>div:nth-child(1) {
+    /* Flex container properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1.5rem;
+
+    padding: 4rem;
+    font-size: 1.4rem;
+}
+
+.italic {
+    font-style: italic;
 }
