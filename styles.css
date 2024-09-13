@@ -68,6 +68,12 @@ body>div {
     padding: 1rem 4rem;
 }
 
+.body-right-section>div:nth-child(3)>p>a {
+    text-decoration: none;
+    color: #596d48;
+    font-weight: bolder;
+}
+
 .italic {
     font-style: italic;
 }
