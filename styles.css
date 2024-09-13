@@ -46,6 +46,11 @@ body>div {
     font-size: 1.4rem;
 }
 
+.body-right-section>div:nth-child(3)>p,
+.body-right-section>div:nth-child(3)>button {
+    font-size: 1.2rem;
+}
+
 .italic {
     font-style: italic;
 }
