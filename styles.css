@@ -46,9 +46,26 @@ body>div {
     font-size: 1.4rem;
 }
 
+/* Right div of body, bottom section elements */
 .body-right-section>div:nth-child(3)>p,
 .body-right-section>div:nth-child(3)>button {
     font-size: 1.2rem;
+}
+
+.body-right-section>div:nth-child(3)>button {
+    background-color: #596d48;
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-filter: drop-shadow(5px 5px 3px #dbdcdd);
+    color: white;
+    cursor: pointer;
+    filter: drop-shadow(5px 5px 3px #dbdcdd);
+    margin-bottom: 2rem;
+    padding: 1rem 4rem;
 }
 
 .italic {
