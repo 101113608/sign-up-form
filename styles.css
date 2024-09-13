@@ -7,7 +7,7 @@
         ! Outline for structuring the page
         ! Remove once finished designing
     */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 body {
@@ -29,6 +29,7 @@ body>div {
 
 .body-right-section>div {
     flex: 1;
+    padding: 4rem;
 }
 
 .body-right-section>:nth-child(odd) {
@@ -42,8 +43,6 @@ body>div {
     flex-direction: column;
     justify-content: flex-end;
     gap: 1.5rem;
-
-    padding: 4rem;
     font-size: 1.4rem;
 }
 
