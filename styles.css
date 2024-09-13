@@ -31,6 +31,10 @@ body>div {
     flex: 1;
 }
 
+.body-right-section>:nth-child(odd) {
+    background-color: #f9fafb;
+}
+
 /* Right div of body, top section */
 .body-right-section>div:nth-child(1) {
     /* Flex container properties */
