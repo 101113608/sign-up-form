@@ -80,6 +80,13 @@ body>div {
     justify-content: space-evenly;
 }
 
+label {
+    color: #1f2937;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    letter-spacing: .05rem;
+}
+
 /* Right div of body, bottom section elements */
 .body-right-section>div:nth-child(3)>p,
 .body-right-section>div:nth-child(3)>button {
