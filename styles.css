@@ -60,10 +60,10 @@ body>div {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-    -webkit-filter: drop-shadow(5px 5px 3px #dbdcdd);
     color: white;
     cursor: pointer;
     filter: drop-shadow(5px 5px 3px #dbdcdd);
+    -webkit-filter: drop-shadow(5px 5px 3px #dbdcdd);
     margin-bottom: 2rem;
     padding: 1rem 4rem;
 }
