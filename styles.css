@@ -87,6 +87,19 @@ label {
     letter-spacing: .05rem;
 }
 
+input {
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 1rem;
+    padding: .4rem;
+    height: 1.2rem;
+    width: 15rem;
+}
+
 /* Right div of body, bottom section elements */
 .body-right-section>div:nth-child(3)>p,
 .body-right-section>div:nth-child(3)>button {
