@@ -46,6 +46,15 @@ body>div {
     font-size: 1.4rem;
 }
 
+/* Right body of div, mid section elements */
+.body-right-section>div:nth-child(2) {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    background-color: white;
+    filter: drop-shadow(5px 5px 10px);
+    -webkit-filter: drop-shadow(5px 5px 5px #5f5f5f1c);
+}
+
 /* Right div of body, bottom section elements */
 .body-right-section>div:nth-child(3)>p,
 .body-right-section>div:nth-child(3)>button {
