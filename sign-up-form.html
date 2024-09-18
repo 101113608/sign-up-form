@@ -21,9 +21,43 @@
             </p>
             <p>You <span class="italic">know</span> you want to.</p>
         </div>
-        <div></div>
         <div>
-            <button type="submit">Create Account</button>
+            <h2>Let's do this!</h2>
+            <form id="create_acc_form">
+                <div class="form-row">
+                    <p>
+                        <label for="first_name">FIRST NAME</label>
+                        <input type="text" id="first_name" name="first_name">
+                    </p>
+                    <p>
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" id="last_name" name="last_name">
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </p>
+                    <p>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p>
+                        <label for="pwd">PASSWORD</label>
+                        <input type="password" id="pwd" name="pwd">
+                    </p>
+                    <p>
+                        <label for="cfm_pwd">CONFIRM PASSWORD</label>
+                        <input type="password" id="cfm_pwd" name="cfm_pwd">
+                    </p>
+                </div>
+            </form>
+        </div>
+        <div>
+            <button type="submit" form="create_acc_form">Create Account</button>
             <p>Already have an account? <a href="">Log in</a></p>
         </div>
     </div>
