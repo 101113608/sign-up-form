@@ -44,6 +44,7 @@ body>div {
     justify-content: flex-end;
     gap: 1.5rem;
     font-size: 1.4rem;
+    font-weight:bolder
 }
 
 /* Right body of div, mid section elements */
