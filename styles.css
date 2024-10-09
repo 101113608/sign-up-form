@@ -27,6 +27,11 @@ body>div {
     flex-direction: column;
 }
 
+.body-left-section {
+    background: url(/images/green-leaf-bg.avif);
+    background-size: cover;
+}
+
 .body-right-section>div {
     flex: 1;
     padding: 4rem;
@@ -44,7 +49,7 @@ body>div {
     justify-content: flex-end;
     gap: 1.5rem;
     font-size: 1.4rem;
-    font-weight:bolder
+    font-weight: bolder
 }
 
 /* Right body of div, mid section elements */
