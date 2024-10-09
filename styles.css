@@ -33,6 +33,11 @@ body>div {
 
     /* Flex item properties */
     flex-basis: 25%;
+
+    /* Flex container properties */
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .body-right-section>div {
