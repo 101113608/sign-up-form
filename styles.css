@@ -40,6 +40,16 @@ body>div {
     align-items: center;
 }
 
+footer {
+    color: white;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+footer>a:link, footer>a:visited {
+    color: white;
+}
+
 .body-right-section>div {
     flex: 1;
     padding: 4rem;
