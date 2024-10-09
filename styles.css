@@ -30,6 +30,9 @@ body>div {
 .body-left-section {
     background: url(/images/green-leaf-bg.avif);
     background-size: cover;
+
+    /* Flex item properties */
+    flex-basis: 25%;
 }
 
 .body-right-section>div {
