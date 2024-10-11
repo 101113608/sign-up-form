@@ -45,7 +45,14 @@ body>div {
     align-items: center;
 }
 
+.dark-transparent-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 .banner {
+    width: 100%;
+    padding: 1rem 0;
+
     /* Flex container properties */
     display: flex;
     justify-content: center;
