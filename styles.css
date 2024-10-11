@@ -45,6 +45,13 @@ body>div {
     align-items: center;
 }
 
+.banner>h1 {
+    color: #FFF;
+    font-size: 6rem;
+    font-family: "odin";
+    font-weight: lighter;
+}
+
 footer {
     color: white;
     font-size: 0.9rem;
