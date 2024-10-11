@@ -59,6 +59,11 @@ body>div {
     align-items: center;
 }
 
+.banner>img {
+    width: 6rem;
+    height: 100%;
+}
+
 .banner>h1 {
     color: #FFF;
     font-size: 6rem;
