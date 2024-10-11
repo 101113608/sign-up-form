@@ -45,6 +45,13 @@ body>div {
     align-items: center;
 }
 
+.banner {
+    /* Flex container properties */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .banner>h1 {
     color: #FFF;
     font-size: 6rem;
