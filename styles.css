@@ -171,6 +171,10 @@ input {
     font-size: 1.2rem;
 }
 
+.body-right-section>div:nth-child(3) {
+    padding-top: 2.5rem;
+}
+
 .body-right-section>div:nth-child(3)>button {
     background-color: #596d48;
     border: none;
