@@ -124,10 +124,6 @@ footer>a:visited {
     gap: 2rem;
 }
 
-.body-right-section>div:nth-child(2)>h2 {
-    margin-bottom: 1rem;
-}
-
 .body-right-section>div:nth-child(2)>form {
     /* Flex container properties */
     display: flex;
