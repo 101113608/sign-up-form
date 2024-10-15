@@ -45,6 +45,16 @@ body>div {
     align-items: center;
 }
 
+.row {
+    /* Flex item properties */
+    flex: 1;
+
+    /* Flex container properties */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
 .dark-transparent-bg {
     background-color: rgba(0, 0, 0, 0.5);
 }
