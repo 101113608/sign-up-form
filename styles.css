@@ -170,6 +170,16 @@ input:invalid {
     border-color: #b91c1c;
 }
 
+input[type]:invalid+span::after {
+    font-size: 0.8rem;
+    color: #b91c1c;
+    position: absolute;
+}
+
+input[type="password"]:invalid+span::after {
+    content: "* Passwords do not match";
+}
+
 input:focus {
     border-color: #1d4ed8;
     box-shadow: 5px 5px 10px #5f5f5f1c;
