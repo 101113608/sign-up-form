@@ -123,8 +123,6 @@ footer>a:visited {
 }
 
 .body-right-section>div:nth-child(2)>form {
-    height: 100%;
-
     /* Flex container properties */
     display: flex;
     flex-direction: column;
