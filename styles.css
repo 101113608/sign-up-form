@@ -116,6 +116,12 @@ footer>a:visited {
     background-color: white;
     filter: drop-shadow(5px 5px 10px #5f5f5f1c);
     -webkit-filter: drop-shadow(5px 5px 10px #5f5f5f1c);
+
+    /* Flex container properties */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
 }
 
 .body-right-section>div:nth-child(2)>h2 {
