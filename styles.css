@@ -46,6 +46,8 @@ body>div {
 }
 
 .row {
+    width: 100%;
+
     /* Flex item properties */
     flex: 1;
 
